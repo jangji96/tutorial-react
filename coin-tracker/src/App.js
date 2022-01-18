@@ -9,6 +9,7 @@ function App() {
       .then((response) => response.json())
       .then((json) => {
         setCoins(json);
+
         setLoading(false);
       });
   }, []);
